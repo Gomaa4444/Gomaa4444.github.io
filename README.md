@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <title>QA Checklist</title>
   <style>
     body {
@@ -45,8 +46,9 @@
       display: none;
     }
   </style>
-</head>
 <body>
+
+<div class="container">
   <h1>✅ QA Checklist</h1>
 
   <form id="qaForm" onsubmit="submitChecklist(event)">
@@ -81,7 +83,7 @@
     <button type="submit">Submit</button>
   </form>
 
-  <p id="thanks">Thank you! Your QA checklist was submitted.</p>
+  <p id="thanks">Thank you! Your QA checklist was submitted (locally).</p>
 </div>
 
 <script>
