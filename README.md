@@ -1,4 +1,4 @@
-<QA Check List ✅>
+QA Check List ✅
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -6,7 +6,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: url(![intelcia-oficinas](https://github.com/user-attachments/assets/cc736b34-44d0-4283-bceb-1b0ec31ade31)
+      background: url('https://github.com/user-attachments/assets/cc736b34-44d0-4283-bceb-1b0ec31ade31')
 ) no-repeat center center fixed;
       background-size: cover;
       padding: 30px;
