@@ -1,4 +1,6 @@
-QA Check List ✅
+```html name=qa-checklist.html
+<!DOCTYPE html>![intelcia-oficinas](https://github.com/user-attachments/assets/5f0cabde-f1d3-415b-b89d-f151032e91a5)
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -51,6 +53,7 @@ QA Check List ✅
 <body>
 
 <div class="container">
+  <img src="intelcia-oficinas.jpg" alt="Intelcia Office" style="width: 100%; border-radius: 10px; margin-bottom: 20px;" />
   <h1>✅ QA Checklist</h1>
 
   <form id="qaForm" onsubmit="submitChecklist(event)">
@@ -105,3 +108,4 @@ QA Check List ✅
 
 </body>
 </html>
+```
