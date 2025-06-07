@@ -31,7 +31,7 @@ QA Check List✅
       background: #007bff;
       border: none;
       color: white;
-      font-size: 16px;
+      font-size: 20px;
       border-radius: 6px;
       cursor: pointer;
     }
