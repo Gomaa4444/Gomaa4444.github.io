@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -6,7 +5,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: url(https://www.rrhhdigital.com/wp-content/uploads/2024/05/intelcia-oficinas.jpg) no-repeat center center fixed;
+      background: url('https://www.rrhhdigital.com/wp-content/uploads/2024/05/intelcia-oficinas.jpg') no-repeat center center fixed;
       background-size: cover;
       padding: 30px;
       margin: 0;
