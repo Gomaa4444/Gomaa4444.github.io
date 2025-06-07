@@ -57,6 +57,7 @@
     <h2>🔍 Opening & Verification</h2>
     <label><input type="checkbox" /> open the call &lt;10 seconds from receipt of interaction</label>
     <label><input type="checkbox" /> Confirms/updates CPC when not required (other user)</label>
+    <label><input type="checkbox" /> Confirms call back number in case of lost call​</label>
     <label><input type="checkbox" /> Run STAT Tool</label>
 
     <h2>🎨 Call Handling</h2>
@@ -75,9 +76,9 @@
     <label><input type="checkbox" /> Pushes STAT data to Remedy</label>
     <label><input type="checkbox" /> Use IBA, AVA,VAT and light speed</label>
 
-    <h2>📝 Seting expectation</h2>
-    <label><input type="checkbox" /> Sets expectations for upcoming activities, when applicable TC:You can track or cancel or Reschedule the TC on our website</label>
-    <label><input type="checkbox" /> Advising the customer with balance and due date on the account</label>
+    <h2>📝 Setting expectations</h2>
+    <label><input type="checkbox" /> Sets expectations for upcoming activities, when applicable[TC Visit: You can cancel, or reschedule a technician appointment on our website.]</label>
+    <label><input type="checkbox" /> Setting the customer's expectations about the balance on the account and the due date for any billing inquiry.</label>
     <label><input type="checkbox" /> Advising the customer with SLA for the Direct ship and the Self help option</label>
     
     <h2>📝 Closing</h2>
