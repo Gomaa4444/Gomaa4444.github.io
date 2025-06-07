@@ -1,4 +1,4 @@
-<QA Check List>
+<!QA Check List✅>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -61,4 +61,46 @@
     <h2>🎨 Call Handling</h2>
     <label><input type="checkbox" /> Confirms the reason customer is contacting us</label>
     <label><input type="checkbox" /> Provides assurance to help resolve the issue with confidence</label>
-    <label><input type="
+    <label><input type="checkbox" /> Actively listens to what the customer is saying</label>
+    <label><input type="checkbox" /> Empathizes to the customer's situation</label>
+
+    <h2>🌐 Call Control</h2>
+    <label><input type="checkbox" /> Allow the customer to speak uninterrupted</label>
+    <label><input type="checkbox" /> Avoids unnecessary hold and dead air</label>
+
+    <h2>⚙️ Tool Utilization</h2>
+    <label><input type="checkbox" /> Uses STAT properly and when required</label>
+    <label><input type="checkbox" /> Pushes STAT data to Remedy</label>
+    <label><input type="checkbox" /> Use IBA, AVA and light speed</label>
+
+    <h2>📝 Closing</h2>
+    <label><input type="checkbox" /> Asks customer if there's anything else they can help with</label>
+    <label><input type="checkbox" /> Sets expectations for upcoming activities, when applicable (TC policy)</label>
+    <label><input type="checkbox" /> Introduces customer satisfaction survey</label>
+    <label><input type="checkbox" /> Self Help options</label>
+    <label><input type="checkbox" /> Closes the call branding Optimum</label>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="thanks">Thank you! Your QA checklist was submitted (locally).</p>
+</div>
+
+<script>
+  function submitChecklist(event) {
+    event.preventDefault();
+
+    // Show thank you message
+    document.getElementById('thanks').style.display = 'block';
+
+    // Uncheck all checkboxes
+    const checkboxes = document.querySelectorAll('#qaForm input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+      checkbox.checked = false;
+    });
+  }
+</script>
+
+</body>
+</html>
+
