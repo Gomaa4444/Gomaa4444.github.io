@@ -1,5 +1,3 @@
-```html name=qa-checklist.html
-<!DOCTYPE html>![intelcia-oficinas](https://github.com/user-attachments/assets/5f0cabde-f1d3-415b-b89d-f151032e91a5)
 
 <html lang="en">
 <head>
@@ -8,7 +6,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: url('intelcia-oficinas.jpg') no-repeat center center fixed;
+      background: url(https://www.rrhhdigital.com/wp-content/uploads/2024/05/intelcia-oficinas.jpg) no-repeat center center fixed;
       background-size: cover;
       padding: 30px;
       margin: 0;
