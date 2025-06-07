@@ -6,7 +6,7 @@ QA Check List ✅
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background: url('intelcia-oficinas.jpg') no-repeat center center fixed;
       background-size: cover;
       padding: 30px;
       margin: 0;
