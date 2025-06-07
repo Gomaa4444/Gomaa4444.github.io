@@ -1,4 +1,4 @@
-<!QA Check List✅>
+QA Check List✅
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
