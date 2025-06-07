@@ -6,7 +6,7 @@
       font-family: Arial, sans-serif;
       background: url('https://www.rrhhdigital.com/wp-content/uploads/2024/05/intelcia-oficinas.jpg') no-repeat center center fixed;
       background-size: cover;
-      padding: 100px;
+      padding: 30px;
       margin: 0;
     }
     .container {
@@ -31,7 +31,7 @@
       background: #007bff;
       border: none;
       color: white;
-      font-size: 16px;
+      font-size: 100px;
       border-radius: 6px;
       cursor: pointer;
     }
