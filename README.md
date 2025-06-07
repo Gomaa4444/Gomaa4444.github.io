@@ -1,4 +1,4 @@
-QA Check List✅
+<QA Check List ✅>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -6,16 +6,18 @@ QA Check List✅
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background-size: cover;
       padding: 30px;
+      margin: 0;
     }
     .container {
       max-width: 700px;
       margin: auto;
-      background: white;
+      background: rgba(255, 255, 255, 0.95); /* light white overlay */
       padding: 25px;
-      border-radius: 8px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
     h1, h2 {
       color: #333;
@@ -31,7 +33,7 @@ QA Check List✅
       background: #007bff;
       border: none;
       color: white;
-      font-size: 20px;
+      font-size: 16px;
       border-radius: 6px;
       cursor: pointer;
     }
@@ -60,47 +62,3 @@ QA Check List✅
 
     <h2>🎨 Call Handling</h2>
     <label><input type="checkbox" /> Confirms the reason customer is contacting us</label>
-    <label><input type="checkbox" /> Provides assurance to help resolve the issue with confidence</label>
-    <label><input type="checkbox" /> Actively listens to what the customer is saying</label>
-    <label><input type="checkbox" /> Empathizes to the customer's situation</label>
-
-    <h2>🌐 Call Control</h2>
-    <label><input type="checkbox" /> Allow the customer to speak uninterrupted</label>
-    <label><input type="checkbox" /> Avoids unnecessary hold and dead air</label>
-
-    <h2>⚙️ Tool Utilization</h2>
-    <label><input type="checkbox" /> Uses STAT properly and when required</label>
-    <label><input type="checkbox" /> Pushes STAT data to Remedy</label>
-    <label><input type="checkbox" /> Use IBA, AVA and light speed</label>
-
-    <h2>📝 Closing</h2>
-    <label><input type="checkbox" /> Asks customer if there's anything else they can help with</label>
-    <label><input type="checkbox" /> Sets expectations for upcoming activities, when applicable (TC policy)</label>
-    <label><input type="checkbox" /> Introduces customer satisfaction survey</label>
-    <label><input type="checkbox" /> Self Help options</label>
-    <label><input type="checkbox" /> Closes the call branding Optimum</label>
-
-    <button type="submit">Submit</button>
-  </form>
-
-  <p id="thanks">Thank you! Your QA checklist was submitted (locally).</p>
-</div>
-
-<script>
-  function submitChecklist(event) {
-    event.preventDefault();
-
-    // Show thank you message
-    document.getElementById('thanks').style.display = 'block';
-
-    // Uncheck all checkboxes
-    const checkboxes = document.querySelectorAll('#qaForm input[type="checkbox"]');
-    checkboxes.forEach(checkbox => {
-      checkbox.checked = false;
-    });
-  }
-</script>
-
-</body>
-</html>
-
