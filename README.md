@@ -6,8 +6,7 @@ QA Check List ✅
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: url('https://github.com/user-attachments/assets/cc736b34-44d0-4283-bceb-1b0ec31ade31')
-) no-repeat center center fixed;
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
       background-size: cover;
       padding: 30px;
       margin: 0;
@@ -86,7 +85,7 @@ QA Check List ✅
     <button type="submit">Submit</button>
   </form>
 
-  <p id="thanks">Thank you! Your QA checklist was submitted.</p>
+  <p id="thanks">Thank you! Your QA checklist was submitted (locally).</p>
 </div>
 
 <script>
