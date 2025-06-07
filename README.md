@@ -31,7 +31,7 @@
       background: #007bff;
       border: none;
       color: white;
-      font-size: 100px;
+      font-size: 16px;
       border-radius: 6px;
       cursor: pointer;
     }
@@ -47,9 +47,6 @@
   </style>
 </head>
 <body>
-
-<div class="container">
-  <img src="intelcia-oficinas.jpg" alt="Intelcia Office" style="width: 100%; border-radius: 10px; margin-bottom: 20px;" />
   <h1>✅ QA Checklist</h1>
 
   <form id="qaForm" onsubmit="submitChecklist(event)">
@@ -84,7 +81,7 @@
     <button type="submit">Submit</button>
   </form>
 
-  <p id="thanks">Thank you! Your QA checklist was submitted (locally).</p>
+  <p id="thanks">Thank you! Your QA checklist was submitted.</p>
 </div>
 
 <script>
