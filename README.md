@@ -45,9 +45,6 @@
       font-weight: bold;
       display: none;
     }
-  </style>
-<body>
-
 <div class="container">
   <h1>✅ QA Checklist</h1>
 
