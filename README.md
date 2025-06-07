@@ -68,17 +68,22 @@
     <h2>🌐 Call Control</h2>
     <label><input type="checkbox" /> Allow the customer to speak uninterrupted</label>
     <label><input type="checkbox" /> Avoids unnecessary hold and dead air</label>
+    <label><input type="checkbox" /> Self Help options</label>
 
     <h2>⚙️ Tool Utilization</h2>
     <label><input type="checkbox" /> Uses STAT properly and when required</label>
     <label><input type="checkbox" /> Pushes STAT data to Remedy</label>
     <label><input type="checkbox" /> Use IBA, AVA and light speed</label>
 
+    <h2>📝 Seting expectation</h2>
+    <label><input type="checkbox" /> Sets expectations for upcoming activities, when applicable TC:You can track or cancel or Reschedule the TC on our website</label>
+    <label><input type="checkbox" /> Advising the customer with balance and due date on the account</label>
+    <label><input type="checkbox" /> Advising the customer with SLA for the Direct ship and the Self help option</label>
+    
     <h2>📝 Closing</h2>
     <label><input type="checkbox" /> Asks customer if there's anything else they can help with</label>
     <label><input type="checkbox" /> Sets expectations for upcoming activities, when applicable (TC policy)</label>
     <label><input type="checkbox" /> Introduces customer satisfaction survey</label>
-    <label><input type="checkbox" /> Self Help options</label>
     <label><input type="checkbox" /> Closes the call branding Optimum</label>
 
     <button type="submit">Submit</button>
