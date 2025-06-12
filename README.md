@@ -55,15 +55,18 @@
   <form id="qaForm" onsubmit="submitChecklist(event)">
 
     <h2>🔍 Opening & Verification</h2>
-    <label><input type="checkbox" /> open the call &lt;10 seconds from receipt of interaction</label>
-    <label><input type="checkbox" /> Confirms/updates CPC when not required (other user)</label>
-    <label><input type="checkbox" /> Confirms call back number in case of lost call​</label>
-    <label><input type="checkbox" /> Run STAT Tool</label>
+    <label><input type="checkbox" /> open the call &lt;5 seconds from receipt of interaction</label>
+    <label><input type="checkbox" /> Confirms/updates CPC (Account holder/Auth User and Other users) If the other user wants to update the CPC advise to make the account owner to call us </label>
+    <label><input type="checkbox" /> Confirms call back number in case of call dropped ​</label>
+    <label><input type="checkbox" /> Takeover the Remedy Ticket on the account in the first 2 minutes of the call </label>
+    <label><input type="checkbox" /> Run STAT Tool  </label>
 
     <h2>🎨 Call Handling</h2>
     <label><input type="checkbox" /> Confirms the reason customer is contacting us</label>
     <label><input type="checkbox" /> Provides assurance to help resolve the issue with confidence</label>
     <label><input type="checkbox" /> Actively listens to what the customer is saying</label>
+    <label><input type="checkbox" /> Build rapport with the customer</label>
+    <label><input type="checkbox" /> Personalize the call with the customer by calling by their first name</label>
     <label><input type="checkbox" /> Empathizes to the customer's situation</label>
 
     <h2>🌐 Call Control</h2>
@@ -84,7 +87,7 @@
     <h2>📝 Closing</h2>
     <label><input type="checkbox" /> Asks customer if there's anything else they can help with</label>
     <label><input type="checkbox" /> Sets expectations for upcoming activities, when applicable</label>
-    <label><input type="checkbox" /> Upsell (Mobile-Fiber)</label>
+    <label><input type="checkbox" /> Upsell (Mobile-Fiber-ETV)</label>
     <label><input type="checkbox" /> Introduces customer satisfaction survey</label>
     <label><input type="checkbox" /> Closes the call branding Optimum</label>
 
